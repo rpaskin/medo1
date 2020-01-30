@@ -1,0 +1,28 @@
+hgroup {
+    /* background-color: lightgray; */
+}
+h1 {
+    color: green;
+}
+h2 {
+    color: purple;
+}
+.umtitulo {
+    color: cyan;    
+}
+#meuautor {
+    color: brown;
+}
+body {
+    color: white;
+    font-size: 150%;
+    background-image: url("https://live.staticflickr.com/8661/16359975125_70548436fa_b.jpg");
+    background-size: cover;
+}
+div.poema {
+    background-color:rgba(255,255,255,0.3);
+    padding:1rem;
+}
+div.poema p:nth-child(even){
+    background-color:rgba(0,255,0,0.2);
+}
